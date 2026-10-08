@@ -1,54 +1,60 @@
-# Computer Part Builder
+# Computer Building System
 
-A Java console application that allows users to build a customized **desktop or laptop computer** by selecting different brands and components.
-
-This project was created for CSC 1060 and demonstrates object-oriented programming concepts including inheritance, encapsulation, constructors, input validation, and multi-class program design.
+A Java console application that allows users to build and configure custom desktop and laptop computers by selecting components and calculating total system cost.
 
 ## Features
 
-* Choose between Desktop or Laptop
-* Select computer brands and CPU options
-* Choose storage and display components
-* Automatically calculate the total cost
-* Validate user selections
-* Build multiple computers in one session
+- Build desktop or laptop configurations
+- Select computer brands and CPU options
+- Choose storage and display components
+- Calculate total system price
+- Interactive menu-driven interface
+- Input validation for user selections
 
-## Technologies & Concepts
+## Technologies
 
-* Java
-* Object-Oriented Programming
-* Inheritance
-* Encapsulation
-* Constructors
-* Input Validation
-* Loops and Conditional Statements
+- Java
+- Object-Oriented Programming (OOP)
+- Inheritance
+- Encapsulation
+- Constructor Chaining
+- User Input Validation
 
 ## Project Structure
 
 ```text
-Computer-Part-Builder/
+src/Midterm/
 ├── Computer.java
 ├── Desktop.java
 ├── Laptop.java
 └── midterm_driver.java
 ```
 
-`Computer` serves as the parent class, while `Desktop` and `Laptop` extend it with their own specialized components. The `midterm_driver` class contains the `main()` method and manages user interaction and program flow.
-
 ## How to Run
 
-Compile and run the program:
+1. Open the project in Eclipse.
+2. Run `midterm_driver.java`.
+3. Follow the prompts to build a computer configuration.
 
-```bash
-javac Computer.java Desktop.java Laptop.java midterm_driver.java
-java midterm_driver
-```
+## Skills Demonstrated
 
-## What I Learned
+- Java Programming
+- Object-Oriented Design
+- Inheritance and Class Hierarchies
+- Constructor Chaining
+- Cost Calculations
+- Menu-Driven Programs
+- User Input Validation
 
-This project gave me hands-on experience designing a multi-class Java program and applying object-oriented concepts such as inheritance and encapsulation. I also practiced input validation, constructors, loops, and calculating results from user selections.
+## Future Improvements
+
+- Save configurations to a file
+- Add additional component options
+- Create a graphical user interface
+- Generate detailed purchase summaries
 
 ## Author
 
-**XoChitl Buker**
-CSC 1060 — Midterm Programming Project
+Xochitl Buker
+
+Community College of Denver
